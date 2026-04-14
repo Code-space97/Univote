@@ -1,0 +1,13 @@
+{
+  "name": "university-voting-system",
+  "version": "1.0.0",
+  "description": "University Online Voting System - React + Node + MongoDB",
+  "scripts": {
+    "install:all": "npm install && cd server && npm install && cd ../client && npm install",
+    "dev": "concurrently \"cd server && npm run dev\" \"cd client && npm run dev\"",
+    "start": "cd server && npm start"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
